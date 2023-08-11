@@ -213,15 +213,22 @@ h2 {
 }
 
 .text-container {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    font-style: italic;
-    font-weight:lighter;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 800px;
     padding: 10px 40px;
 }
 
-.text-container  p {
+.text-container .text {
+    font-size: 36px; 
+    font-style: italic;
+    font-weight:lighter;
+    color: rgb(0,0,0, 0.7)
+}
+
+.text-container .bywho {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
     text-align: end;
 }
